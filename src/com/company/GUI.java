@@ -6,7 +6,7 @@ GUI() {
     Frame f = new Frame();
     f.setSize(300,300);
     Button b=new Button("click me");
-    f.add(b);//adding button into frame
+    f.add(b);
     f.setVisible(true);
 }
 
