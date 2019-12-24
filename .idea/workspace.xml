@@ -6,7 +6,32 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d7b458c-5752-4538-9be1-55fdbc9354cd" name="Default Changelist" comment="" />
+    <list default="true" id="8d7b458c-5752-4538-9be1-55fdbc9354cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Processing.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Processing_jar/Processing.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/1133_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/1133_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/1133_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/11_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/11_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/11_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/321_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/321_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/321_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/423_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/423_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/423_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/5401_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/5401_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/5401_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/7414_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/7414_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/8811_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/8811_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/8811_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +56,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Processing" />
@@ -47,9 +72,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Processing.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Processing_jar/Processing.jar" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.Processing.jar" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.Processing.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -87,26 +121,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577144987155" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1577151902203">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1577154992043">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577151902203" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1577151902203">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577154992043" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1577154992043">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577151902203" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1577151902202">
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577154992043" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1577154992043">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577151902202" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1577151902203">
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577154992043" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1577154992043">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577151902203" />
-    <state x="461" y="183" key="SettingsEditor" timestamp="1577151236249">
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577154992043" />
+    <state x="461" y="183" key="SettingsEditor" timestamp="1577154976479">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="183" key="SettingsEditor/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577151236249" />
+    <state x="461" y="183" key="SettingsEditor/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577154976479" />
     <state x="785" y="477" key="classpath-attribute-editor" timestamp="1577144951058">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

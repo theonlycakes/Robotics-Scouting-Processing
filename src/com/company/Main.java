@@ -10,7 +10,8 @@ public class Main {
         File dir = new File("Scouting Data");
         dir.mkdir();
         //Reads the files from a folder that is in the same location as the jar file
-        File file = new File(jarLoc + "/Scouting Data/");
+        //Will be changed to run on button so the user can add data
+        File file = new File("Scouting Data");
         File[] files = file.listFiles();
         for(File f: files){
             System.out.println(f.getName());
