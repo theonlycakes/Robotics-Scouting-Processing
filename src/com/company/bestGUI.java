@@ -2,6 +2,7 @@ package com.company;
 
 import java.awt.*;
 import java.awt.event.*;
+import java.io.FileNotFoundException;
 
 
 public class bestGUI extends Frame{
@@ -65,7 +66,11 @@ public class bestGUI extends Frame{
             public void actionPerformed(ActionEvent actionEvent) {
                 //Makes the file processing object
                 fileProcessing process = new fileProcessing();
-                process.fileReader();
+                try {
+                    process.fileReader();
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
             }
         });
 
