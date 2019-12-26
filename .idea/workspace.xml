@@ -7,36 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7b458c-5752-4538-9be1-55fdbc9354cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/fileCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/fileProcessing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/bestGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/teamGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/New Text Document.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Processing.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Processing_jar/Processing.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/1133_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/1133_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/1133_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/11_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/11_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/11_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/321_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/321_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/321_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/423_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/423_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/423_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/5401_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/5401_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/5401_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/7414_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/7414_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/8811_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/8811_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/8811_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/GUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/New Text Document.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/Scouting Data/New Text Document.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/GUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/GUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/GUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/GUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/GUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/GUI$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/GUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/fileCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/fileCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/fileProcessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/fileProcessing.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/fileCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/fileCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/fileProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/fileProcessing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,34 +115,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577144987155" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1577217890841">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1577325409717">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577217890841" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1577217890841">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577325409717" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1577325409717">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577217890841" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1577217890841">
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577325409717" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1577325409717">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577217890841" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1577217890841">
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577325409717" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1577325409717">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577217890841" />
-    <state x="461" y="183" key="SettingsEditor" timestamp="1577217961826">
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577325409717" />
+    <state x="461" y="183" key="SettingsEditor" timestamp="1577307976048">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="183" key="SettingsEditor/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577217961826" />
+    <state x="461" y="183" key="SettingsEditor/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577307976048" />
     <state x="785" y="477" key="classpath-attribute-editor" timestamp="1577144951058">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="785" y="477" key="classpath-attribute-editor/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577144951057" />
-    <state x="661" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1577136925109">
+    <state x="661" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1577320421944">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="661" y="365" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577136925109" />
+    <state x="661" y="365" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577320421944" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1577217666072">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

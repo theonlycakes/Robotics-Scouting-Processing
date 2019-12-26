@@ -41,7 +41,7 @@ GUI() {
             //Can close the previous window
             f.dispose();
             //Will open the individual team page
-            GUI q = new GUI();
+            teamGUI q = new teamGUI();
         }
     });
     menu.add(i1);
@@ -52,19 +52,32 @@ GUI() {
     //testing text fields
     TextField tf = new TextField();
     tf.setBounds(50,50, 150,20);
-
+    tf.setText("This box does nothing");
     //test button with actions
-    Button b = new Button("click me");
-    b.setBounds(50,100,60,30);
-    b.addActionListener(new ActionListener() {
+    Button processData = new Button("Click to Process");
+    processData.setBounds(50,100,90,30);
+    processData.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent actionEvent) {
-            tf.setText("YEET I BE TESTING");
+            //Makes the file processing object
+            fileProcessing process = new fileProcessing();
+            process.fileReader();
+        }
+    });
+
+    Button makeFile = new Button("Click to make the file for the data");
+    makeFile.setBounds(150,100,180,30);
+    makeFile.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent actionEvent) {
+            //Makes the file
+            fileCreator create = new fileCreator();
         }
     });
     //adding stuff to the frame and making it visible
+    f.add(makeFile);
     f.setMenuBar(mb);
-    f.add(b);
+    f.add(processData);
     f.add(tf);
     f.setLayout(null);
     f.setVisible(true);
