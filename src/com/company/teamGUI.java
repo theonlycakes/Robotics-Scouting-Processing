@@ -4,6 +4,8 @@ import java.awt.*;
 
 import java.awt.event.*;
 
+import static com.company.dataStorage.teamList;
+
 
 public class teamGUI {
     teamGUI() {
@@ -11,25 +13,16 @@ public class teamGUI {
         //Currently is just a copy of GUI
         //Will display the individual teams and their stats
 
-        //Code for team data on teams
-        //this array will not have duplicates only one entry per team
-        int test [] = {5,4,3,2,1,0};
-
-
-
-
-
         //GUI Items
-
 
         //makes a frame for everything
         Frame f = new Frame();
         f.setSize(400, 400);
 
         //list for selecting the teams
-        List teamlist = new List (test.length);
+        List teamlist = new List (teamList.length);
         teamlist.setBounds(100,100,75,75);
-        for (int listadding: test) {
+        for (int listadding: teamList) {
             teamlist.add(Integer.toString(listadding));
         }
         //Menu bar is used to execute

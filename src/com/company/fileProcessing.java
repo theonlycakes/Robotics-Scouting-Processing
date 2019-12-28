@@ -70,8 +70,9 @@ public class fileProcessing {
         for(int num:set){
             teamNameList[j++] = num;
         }
-
-
+        //testing this to move data
+        dataStorage toData = new dataStorage();
+        toData.teamListFiltered(teamNameList);
         //for printing array contents for test
         System.out.println(Arrays.toString(teamNameList));
 
