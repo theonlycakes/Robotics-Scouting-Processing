@@ -1,7 +1,7 @@
 package com.company;
 
 import java.io.*;
-import java.util.Scanner;
+import java.util.*;
 
 public class fileProcessing {
     void fileReader() throws FileNotFoundException {
@@ -49,8 +49,32 @@ public class fileProcessing {
             }
         //End of data storage and separation
 
-        //TODO
+        //makes a new array to put in list
+        int tempArray [] = new int[teamName.length];
+        int copyCount = 0;
+            for (String toCopy: teamName) {
+                tempArray[copyCount] = Integer.parseInt(toCopy);
+            copyCount++;
+        }
+
         //Remove the duplicate team names from teamName array for the list in teamGUI
+        // creating List from array
+        List<Integer> numList = new ArrayList<Integer>();
+        for(int i : tempArray){
+            numList.add(i);
+        }
+        Set<Integer> set = new LinkedHashSet<Integer>(numList);
+        // Putting elements back in array
+        int[] teamNameList = new int[set.size()];
+        int j =0;
+        for(int num:set){
+            teamNameList[j++] = num;
+        }
+
+
+        //for printing array contents for test
+        System.out.println(Arrays.toString(teamNameList));
+
 
     }
 }
