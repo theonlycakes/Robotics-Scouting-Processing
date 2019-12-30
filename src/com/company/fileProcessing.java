@@ -31,7 +31,7 @@ public class fileProcessing {
                 Scanner dataRead = new Scanner(curFile);
                 while (dataRead.hasNext()) {
                     storageString = dataRead.next();
-                    System.out.println(storageString);
+                    //System.out.println(storageString);
                 }
                 //splits the string by commas reason csv
                 tempStorage = storageString.split(",");
@@ -73,8 +73,9 @@ public class fileProcessing {
         //testing this to move data
         dataStorage toData = new dataStorage();
         toData.teamListFiltered(teamNameList);
+        toData.teamName(teamName);
         //for printing array contents for test
-        System.out.println(Arrays.toString(teamNameList));
+        //System.out.println(Arrays.toString(teamNameList));
 
 
     }

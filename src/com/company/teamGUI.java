@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 import static com.company.dataStorage.teamList;
+import static com.company.dataStorage.teamName;
 
 
 public class teamGUI {
@@ -21,10 +22,24 @@ public class teamGUI {
 
         //list for selecting the teams
         List teamlist = new List (teamList.length);
-        teamlist.setBounds(100,100,75,75);
+        teamlist.setBounds(50,100,75,75);
         for (int listadding: teamList) {
             teamlist.add(Integer.toString(listadding));
         }
+        teamlist.addMouseListener(new MouseAdapter() {
+            public void mouseClicked(MouseEvent e) {
+                //data processing/sending to other locations
+                int indexOfClicked = teamlist.getSelectedIndex();
+                int valOfClicked = teamList[indexOfClicked];
+                int dataLocs [] = new int[teamName.length];
+                for (int a:teamName) {
+                    if (valOfClicked == a) {
+
+                    }
+                }
+                //GUI elements that are made on press
+            }
+        });
         //Menu bar is used to execute
         MenuBar mb = new MenuBar();
         Menu menu = new Menu("Menu");

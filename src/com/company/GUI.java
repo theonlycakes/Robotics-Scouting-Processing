@@ -46,8 +46,6 @@ GUI() {
         }
     });
     menu.add(i1);
-    menu.add(i2);
-
     mb.add(menu);
 
     //testing text fields
@@ -61,6 +59,7 @@ GUI() {
         @Override
         public void actionPerformed(ActionEvent actionEvent) {
             //prevents program from crashing due to no data for the list yet
+            menu.add(i2);
             menu.add(i3);
             //Makes the file processing object
             fileProcessing process = new fileProcessing();
