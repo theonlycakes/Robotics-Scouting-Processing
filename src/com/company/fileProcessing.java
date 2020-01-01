@@ -74,6 +74,7 @@ public class fileProcessing {
         dataStorage toData = new dataStorage();
         toData.teamListFiltered(teamNameList);
         toData.teamName(teamName);
+        toData.teamScore(teamScore);
         //for printing array contents for test
         //System.out.println(Arrays.toString(teamNameList));
 

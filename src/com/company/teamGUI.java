@@ -4,8 +4,7 @@ import java.awt.*;
 
 import java.awt.event.*;
 
-import static com.company.dataStorage.teamList;
-import static com.company.dataStorage.teamName;
+import static com.company.dataStorage.*;
 
 
 public class teamGUI {
@@ -32,12 +31,32 @@ public class teamGUI {
                 int indexOfClicked = teamlist.getSelectedIndex();
                 int valOfClicked = teamList[indexOfClicked];
                 int dataLocs [] = new int[teamName.length];
+                int dataLocscount = 0;
                 for (int a:teamName) {
                     if (valOfClicked == a) {
-
+                        dataLocs[dataLocscount] = 1;
                     }
+                    else {
+                        dataLocs[dataLocscount] = 0;
+                    }
+                    dataLocscount++;
+                }
+                dataLocscount = 0;
+                int totalScore = 0;
+                int numOfMatches = 0;
+                for (int a:dataLocs) {
+                    if (a == 1) {
+                        numOfMatches++;
+                        totalScore+= teamScore[dataLocscount];
+                        numOfMatches++;
+                    }
+                    dataLocscount++;
                 }
                 //GUI elements that are made on press
+                TextField AverageScore = new TextField();
+                AverageScore.setBounds(200,50, 150,20);
+                AverageScore.setText(Double.toString(totalScore/numOfMatches));
+                f.add(AverageScore);
             }
         });
         //Menu bar is used to execute
