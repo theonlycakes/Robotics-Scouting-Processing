@@ -18,10 +18,27 @@ public class teamGUI {
         //makes a frame for everything
         Frame f = new Frame();
         f.setSize(400, 400);
-
+        //Creates an object for the data processing
+        processData toProcess = new processData();
+        //Textfields for data
+        TextField AverageScore = new TextField();
+        AverageScore.setBounds(310,75, 50,20);
+        f.add(AverageScore);
+        TextField StdDev = new TextField();
+        StdDev.setBounds(310,95, 50,20);
+        f.add(StdDev);
+        //Labels for the data boxes
+        Label Average = new Label();
+        Average.setText("Average Score:");
+        Average.setBounds(200,75, 100,20);
+        f.add(Average);
+        Label Deviation  = new Label();
+        Deviation.setText("Standard Deviation:");
+        Deviation.setBounds(180,95, 120,20);
+        f.add(Deviation);
         //list for selecting the teams
         List teamlist = new List (teamList.length);
-        teamlist.setBounds(50,100,75,75);
+        teamlist.setBounds(25,75,75,225);
         for (int listadding: teamList) {
             teamlist.add(Integer.toString(listadding));
         }
@@ -41,6 +58,17 @@ public class teamGUI {
                     }
                     dataLocscount++;
                 }
+                double stdDevArry [] = new double[dataLocscount];
+                int stdDevArryCount = 0;
+                int countForLoop = 0;
+                for (int a:dataLocs) {
+                    if (a == 1) {
+                        stdDevArry[stdDevArryCount] = teamScore[countForLoop];
+                        stdDevArryCount++;
+                    }
+                    countForLoop++;
+                }
+                StdDev.setText(Double.toString(toProcess.calculateSD(stdDevArry)));
                 dataLocscount = 0;
                 int totalScore = 0;
                 int numOfMatches = 0;
@@ -53,10 +81,7 @@ public class teamGUI {
                     dataLocscount++;
                 }
                 //GUI elements that are made on press
-                TextField AverageScore = new TextField();
-                AverageScore.setBounds(200,50, 150,20);
                 AverageScore.setText(Double.toString(totalScore/numOfMatches));
-                f.add(AverageScore);
             }
         });
         //Menu bar is used to execute
@@ -97,18 +122,12 @@ public class teamGUI {
         menu.add(i2);
         menu.add(i3);
         mb.add(menu);
-
-        //testing text fields
-        TextField tf = new TextField();
-        tf.setBounds(50,50, 150,20);
-        tf.setText("This box does nothing!!!!!");
         //test button with actions
 
 
         //adding stuff to the frame and making it visible
         f.add(teamlist);
         f.setMenuBar(mb);
-        f.add(tf);
         f.setLayout(null);
         f.setVisible(true);
         //allows the program to be closed

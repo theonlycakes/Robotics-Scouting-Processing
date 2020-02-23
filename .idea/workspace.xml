@@ -7,9 +7,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7b458c-5752-4538-9be1-55fdbc9354cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Scouting Data/2020_0_0 (25).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scouting Data/2020_0_0 (26).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scouting Data/2020_0_0 (27).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scouting Data/2020_0_0 (28).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scouting Data/2020_0_0 (29).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scouting Data/2020_0_0 (30).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/processData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/1133_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/1133_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/1133_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/11_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/11_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/11_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/321_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/321_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/321_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/423_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/423_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/423_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/5401_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/5401_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/5401_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/8811_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/8811_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scouting Data/8811_3.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Processing.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Processing_jar/Processing.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/dataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dataStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/1133_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/1133_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/1133_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/11_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/11_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/11_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/321_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/321_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/321_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/423_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/423_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/423_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/5401_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/5401_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/5401_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/8811_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/8811_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Processing_jar/Scouting Data/8811_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/fileProcessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/fileProcessing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/teamGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/teamGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/teamGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/teamGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/teamGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/teamGUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/teamGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/teamGUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/teamGUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/teamGUI$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Processing/com/company/teamGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Processing/com/company/teamGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/fileProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/fileProcessing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/teamGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/teamGUI.java" afterDir="false" />
     </list>
@@ -29,14 +80,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VOvNSZZGDbmv2o1F9IIifRZcyA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -93,34 +147,41 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="709" y="377" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1581556681756">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="709" y="377" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1581556681756" />
     <state x="711" y="392" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577144892317">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="711" y="392" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577144892317" />
-    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1577477880741">
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1581556678868">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577477880741" />
-    <state width="938" height="266" key="GridCell.Tab.0.bottom" timestamp="1577912762769">
-      <screen x="1920" y="-1065" width="1920" height="1080" />
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1581556678868" />
+    <state width="938" height="266" key="GridCell.Tab.0.bottom" timestamp="1582417534639">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="938" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577745487609" />
+    <state width="938" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1582417534639" />
     <state width="938" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@1920.-1065.1920.1080" timestamp="1577912762769" />
-    <state width="938" height="266" key="GridCell.Tab.0.center" timestamp="1577912762769">
-      <screen x="1920" y="-1065" width="1920" height="1080" />
+    <state width="938" height="266" key="GridCell.Tab.0.center" timestamp="1582417534639">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="938" height="266" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577745487609" />
+    <state width="938" height="266" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1582417534639" />
     <state width="938" height="266" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@1920.-1065.1920.1080" timestamp="1577912762769" />
-    <state width="938" height="266" key="GridCell.Tab.0.left" timestamp="1577912762769">
-      <screen x="1920" y="-1065" width="1920" height="1080" />
+    <state width="938" height="266" key="GridCell.Tab.0.left" timestamp="1582417534638">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="938" height="266" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577745487609" />
+    <state width="938" height="266" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1582417534638" />
     <state width="938" height="266" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@1920.-1065.1920.1080" timestamp="1577912762769" />
-    <state width="938" height="266" key="GridCell.Tab.0.right" timestamp="1577912762769">
-      <screen x="1920" y="-1065" width="1920" height="1080" />
+    <state width="938" height="266" key="GridCell.Tab.0.right" timestamp="1582417534639">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="938" height="266" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577745487609" />
+    <state width="938" height="266" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1582417534639" />
     <state width="938" height="266" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@1920.-1065.1920.1080" timestamp="1577912762769" />
     <state x="461" y="183" key="SettingsEditor" timestamp="1577406844533">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -130,10 +191,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="785" y="477" key="classpath-attribute-editor/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577144951057" />
-    <state x="2581" y="-700" key="com.intellij.ide.util.TipDialog" timestamp="1577910422548">
-      <screen x="1920" y="-1065" width="1920" height="1080" />
+    <state x="661" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1581785956839">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="661" y="365" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1577496909545" />
+    <state x="661" y="365" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1581785956839" />
     <state x="2581" y="-700" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@1920.-1065.1920.1080" timestamp="1577910422548" />
     <state x="616" y="250" key="run.anything.popup" timestamp="1577375026776">
       <screen x="0" y="0" width="1920" height="1080" />
