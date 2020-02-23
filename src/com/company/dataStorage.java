@@ -10,6 +10,9 @@ public class dataStorage {
     public static int [] teamList;
     public static int[] teamName;
     public static int[] teamScore;
+    public static int[] autontrue;
+    public static int[] autonBall;
+    public static int[] ballsScored;
 
    public void teamListFiltered(int [] a) {
        teamList = new int[a.length];
@@ -31,4 +34,18 @@ public class dataStorage {
             count++;
         }
     }
+
+    public void setAutontrue(int a[]) {
+        autontrue = a.clone();
+    }
+
+    public void setautonBall(int a[]) {
+        autonBall = a.clone();
+    }
+
+    public void setballsScored(int a[]) {
+        ballsScored = a.clone();
+    }
+
+
 }

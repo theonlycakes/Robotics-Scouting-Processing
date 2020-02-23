@@ -16,6 +16,17 @@ public class processData {
         return (total/count);
     }
 
+    public double averageDouble(double data[]) {
+        //Gives the average of a numerical data array
+        double total = 0;
+        double count = 0;
+        for (double adding: data) {
+            count++;
+            total+=adding;
+        }
+        return (total/count);
+    }
+
     public double calculateSD(double numArray[]) {
         //calculate standard deviation
         double sum = 0.0, standardDeviation = 0.0;
@@ -34,11 +45,11 @@ public class processData {
         return Math.sqrt(standardDeviation/length);
     }
 
-    public double percent(int data[]) {
+    public double percent(double data[]) {
         //calculates percent times happened
         double trueCount = 0;
         double totalCount = 0;
-        for (int a: data) {
+        for (double a: data) {
             if (a > 0) {
                 trueCount++;
             }

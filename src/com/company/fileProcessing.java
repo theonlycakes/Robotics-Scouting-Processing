@@ -77,6 +77,9 @@ public class fileProcessing {
         toData.teamListFiltered(teamNameList);
         toData.teamName(teamName);
         toData.teamScore(teamScore);
+        toData.setAutontrue(auton);
+        toData.setautonBall(autonBallScore);
+        toData.setballsScored(ballScore);
         //for printing array contents for test
         //System.out.println(Arrays.toString(teamNameList));
 

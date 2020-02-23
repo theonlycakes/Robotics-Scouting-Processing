@@ -24,18 +24,74 @@ public class teamGUI {
         TextField AverageScore = new TextField();
         AverageScore.setBounds(310,75, 50,20);
         f.add(AverageScore);
+
         TextField StdDev = new TextField();
         StdDev.setBounds(310,95, 50,20);
         f.add(StdDev);
+
+        TextField autonPercentField = new TextField();
+        autonPercentField.setBounds(310,115, 50,20);
+        f.add(autonPercentField);
+
+        TextField autonBallAvgField = new TextField();
+        autonBallAvgField.setBounds(310,135, 50,20);
+        f.add(autonBallAvgField);
+
+        TextField autonBallDevField = new TextField();
+        autonBallDevField.setBounds(310,155, 50,20);
+        f.add(autonBallDevField);
+
+        TextField BallAvgField = new TextField();
+        BallAvgField.setBounds(310,175, 50,20);
+        f.add(BallAvgField);
+
+        TextField BallDevField = new TextField();
+        BallDevField.setBounds(310,195, 50,20);
+        f.add(BallDevField);
+        //
         //Labels for the data boxes
+        //
+        //
+        Label TeamNames  = new Label();
+        TeamNames.setText("Team Names");
+        TeamNames.setBounds(22,55,80,20);
+        f.add(TeamNames);
+
         Label Average = new Label();
         Average.setText("Average Score:");
         Average.setBounds(200,75, 100,20);
         f.add(Average);
-        Label Deviation  = new Label();
-        Deviation.setText("Standard Deviation:");
-        Deviation.setBounds(180,95, 120,20);
+
+        Label Deviation = new Label();
+        Deviation.setText("Standard Deviation of Average:");
+        Deviation.setBounds(120,95, 180,20);
         f.add(Deviation);
+
+        Label autonPercent = new Label();
+        autonPercent.setText("Percent Time does Autonomous:");
+        autonPercent.setBounds(110,115, 190,20);
+        f.add(autonPercent);
+
+        Label autonBallAvg = new Label();
+        autonBallAvg.setText("Average Balls scored in Auton:");
+        autonBallAvg.setBounds(110,135, 190,20);
+        f.add(autonBallAvg);
+
+        Label autonBallDev = new Label();
+        autonBallDev.setText("Standard Dev of Ball Avg in Auton:");
+        autonBallDev.setBounds(110,155, 190,20);
+        f.add(autonBallDev);
+
+        Label BallAvg = new Label();
+        BallAvg.setText("Average Balls scored:");
+        BallAvg.setBounds(110,175, 190,20);
+        f.add(BallAvg);
+
+        Label BallDev = new Label();
+        BallDev.setText("Standard Dev of Balls scored:");
+        BallDev.setBounds(110,195, 190,20);
+        f.add(BallDev);
+
         //list for selecting the teams
         List teamlist = new List (teamList.length);
         teamlist.setBounds(25,75,75,225);
@@ -69,19 +125,78 @@ public class teamGUI {
                     countForLoop++;
                 }
                 StdDev.setText(Double.toString(toProcess.calculateSD(stdDevArry)));
-                dataLocscount = 0;
-                int totalScore = 0;
-                int numOfMatches = 0;
+
+                double autonPercent [] = new double[dataLocscount];
+                stdDevArryCount = 0;
+                countForLoop = 0;
                 for (int a:dataLocs) {
                     if (a == 1) {
-                        numOfMatches++;
+                        autonPercent[stdDevArryCount] = autontrue[countForLoop];
+                        stdDevArryCount++;
+                    }
+                    countForLoop++;
+                }
+                autonPercentField.setText(Double.toString(toProcess.percent(autonPercent)));
+
+                double ballScoreAvgData [] = new double[dataLocscount];
+                stdDevArryCount = 0;
+                countForLoop = 0;
+                for (int a:dataLocs) {
+                    if (a == 1) {
+                        ballScoreAvgData[stdDevArryCount] = autonBall[countForLoop];
+                        stdDevArryCount++;
+                    }
+                    countForLoop++;
+                }
+                autonBallAvgField.setText(Double.toString(toProcess.averageDouble(ballScoreAvgData)));
+
+                double ballAvgArry [] = new double[dataLocscount];
+                stdDevArryCount = 0;
+                countForLoop = 0;
+                for (int a:dataLocs) {
+                    if (a == 1) {
+                        ballAvgArry[stdDevArryCount] = ballsScored[countForLoop];
+                        stdDevArryCount++;
+                    }
+                    countForLoop++;
+                }
+                BallAvgField.setText(Double.toString(toProcess.averageDouble(ballAvgArry)));
+
+                double ballDevArry [] = new double[dataLocscount];
+                stdDevArryCount = 0;
+                countForLoop = 0;
+                for (int a:dataLocs) {
+                    if (a == 1) {
+                        ballDevArry[stdDevArryCount] = ballsScored[countForLoop];
+                        stdDevArryCount++;
+                    }
+                    countForLoop++;
+                }
+                BallDevField.setText(Double.toString(toProcess.averageDouble(ballDevArry)));
+
+                dataLocscount = 0;
+                double totalScore = 0;
+                double numOfMatches = 0;
+                for (int a:dataLocs) {
+                    if (a == 1) {
                         totalScore+= teamScore[dataLocscount];
                         numOfMatches++;
                     }
                     dataLocscount++;
                 }
-                //GUI elements that are made on press
                 AverageScore.setText(Double.toString(totalScore/numOfMatches));
+
+                double stdDevArryBall [] = new double[dataLocscount];
+                stdDevArryCount = 0;
+                countForLoop = 0;
+                for (int a:dataLocs) {
+                    if (a == 1) {
+                        stdDevArryBall[stdDevArryCount] = autonBall[countForLoop];
+                        stdDevArryCount++;
+                    }
+                    countForLoop++;
+                }
+                autonBallDevField.setText(Double.toString(toProcess.calculateSD(stdDevArryBall)));
             }
         });
         //Menu bar is used to execute
